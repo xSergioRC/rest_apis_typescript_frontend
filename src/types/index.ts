@@ -1,4 +1,5 @@
-import { boolean, number, object, string, InferOutput, array } from "valibot"; 
+import { boolean, number, object, string, array } from "valibot"; 
+import type {InferOutput} from "valibot"; 
 /*
 -----------------------IMPORTANTE------------------
 POR LA VERSION USADA DE VALIBOT Output ya no se usa, ahora es inferoutput

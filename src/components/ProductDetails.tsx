@@ -1,4 +1,5 @@
-import { useNavigate, Form, ActionFunctionArgs, redirect, useFetcher } from "react-router-dom"
+import { useNavigate, Form,redirect, useFetcher } from "react-router-dom"
+import type {ActionFunctionArgs} from "react-router-dom"
 import type { Product } from "../types"
 import { formatCurrency } from "../utils"
 import { deleteProduct } from "../services/ProductService"
